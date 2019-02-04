@@ -152,7 +152,7 @@ class ContactForm extends React.Component {
               <Form.Label>Phone</Form.Label>
               <Form.Control
                 name="phone"
-                type="number"
+                type="text"
                 placeholder="Phone"
                 onChange={ this.handleChange.bind(this) }
                 defaultValue={this.state.contact.phone}
@@ -167,7 +167,7 @@ class ContactForm extends React.Component {
               <Form.Label>Work Phone</Form.Label>
               <InputGroup>
                 <Form.Control
-                  type="number"
+                  type="text"
                   name="work_phone"
                   placeholder="Work Phone"
                   onChange={ this.handleChange.bind(this) }

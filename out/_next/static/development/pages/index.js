@@ -358,7 +358,7 @@ function (_React$Component) {
         __self: this
       }, "Phone"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
         name: "phone",
-        type: "number",
+        type: "text",
         placeholder: "Phone",
         onChange: this.handleChange.bind(this),
         defaultValue: this.state.contact.phone,
@@ -403,7 +403,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
-        type: "number",
+        type: "text",
         name: "work_phone",
         placeholder: "Work Phone",
         onChange: this.handleChange.bind(this),
@@ -29155,13 +29155,22 @@ function (_React$Component) {
           lineNumber: 165
         },
         __self: this
-      }, "Create Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyModal__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }, "Create Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        className: "ml-3 mt-3 mb-3",
+        variant: "primary",
+        href: "https://github.com/Arpit1989/Acst",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 186
+        },
+        __self: this
+      }, "Github Link and ReadMe"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyModal__WEBPACK_IMPORTED_MODULE_2__["default"], {
         title: this.state.action,
         show: this.state.modalShow,
         onHide: modalClose,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 193
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ContactForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -29170,7 +29179,7 @@ function (_React$Component) {
         contact: contact,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 191
+          lineNumber: 198
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_table__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -29223,7 +29232,7 @@ function (_React$Component) {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 252
+                lineNumber: 259
               },
               __self: this
             }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29237,14 +29246,14 @@ function (_React$Component) {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 253
+                lineNumber: 260
               },
               __self: this
             }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
               className: "fas fa-eye",
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 253
+                lineNumber: 260
               },
               __self: this
             })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29258,14 +29267,14 @@ function (_React$Component) {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 254
+                lineNumber: 261
               },
               __self: this
             }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
               className: "fas fa-pencil-alt",
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 254
+                lineNumber: 261
               },
               __self: this
             })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29279,14 +29288,14 @@ function (_React$Component) {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 255
+                lineNumber: 262
               },
               __self: this
             }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
               className: "fas fa-times-circle",
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 255
+                lineNumber: 262
               },
               __self: this
             })));
@@ -29306,7 +29315,7 @@ function (_React$Component) {
         className: "-striped -highlight",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194
+          lineNumber: 201
         },
         __self: this
       }));
