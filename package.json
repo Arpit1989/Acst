@@ -1,0 +1,37 @@
+{
+  "name": "acst",
+  "version": "1.0.0",
+  "description": "Contacts API ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "cors": "^2.8.5",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.7.0",
+    "react-fontawesome": "^1.6.1",
+    "react-table": "^6.9.0",
+    "validator": "^10.11.0"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.0.0",
+    "jest": "^24.0.0",
+    "react-test-renderer": "^16.7.0"
+  }
+}
